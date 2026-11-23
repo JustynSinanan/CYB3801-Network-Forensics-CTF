@@ -1,6 +1,8 @@
 services:
   web:
     image: nginx:alpine
+    volumes:
+      - ./web-files:/usr/share/nginx/html:ro
 
   workstation:
     image: alpine:3
