@@ -1,3 +1,7 @@
 services:
   web:
     image: nginx:alpine
+
+  workstation:
+    image: alpine:3
+    command: ["sleep", "infinity"]
