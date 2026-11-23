@@ -7,3 +7,10 @@ services:
   workstation:
     image: alpine:3
     command: ["sleep", "infinity"]
+
+  ftp:
+    build: ./ftp
+    command: ["python", "-m", "pyftpdlib", "-i", "0.0.0.0", "-p", "21", "-u", "records", "-P", "CYB"]
+
+  dns:
+    build: ./dns
