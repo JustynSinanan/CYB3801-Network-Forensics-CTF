@@ -1,4 +1,4 @@
-# After Hours
+# Network Forensics CTF
 
 An office workstation made a series of unusual network requests. Your only evidence is a [packet capture](./evidence/incident.pcap) from the fictional company network.
 
