@@ -15,7 +15,7 @@ something worth investigating? Record the source IP and packet number.
 <details>
 <summary>Hint 2: How do I recover the file?</summary>
 
-Go to **File → Export Objects → HTTP**. Find the filename you identified
+Go to **File > Export Objects > HTTP**. Find the filename you identified
 in the request and save a copy of it.
 
 </details>
