@@ -1,7 +1,13 @@
 # After Hours
 
-An office workstation made a series of unusual network requests. You have one piece of evidence: `incident.pcap`.
+An office workstation made a series of unusual network requests. Your only evidence is a [packet capture](./evidence/incident.pcap) from the fictional company network.
 
-Open the capture in Wireshark and reconstruct what happened. Which workstation made the unusual requests? What file did it retrieve, and what clues in the traffic help you open it?
+## Your investigation
 
-Submit the flag exactly as it appears in the recovered file, and the packet numbers that support your findings.
+Open `incident.pcap` in Wireshark. Identify the workstation that made the unusual requests and trace its activity. Which file did it retrieve? What clues in the traffic let you open that file and recover the flag?
+
+## What to submit
+
+- The workstation’s IP address and the name of the file it retrieved.
+- The flag exactly as it appears in the recovered file.
+- A brief explanation citing the packet numbers that identify the workstation, show the file transfer, and reveal the clues you used.

@@ -1,4 +1,5 @@
 # CYB3801-Network-Forensics-CTF
+
 A packet capture investigation challenge built with Docker, tcpdump, and Wireshark for CYB3801.
 
 ## Challenge Overview
@@ -8,3 +9,8 @@ You are a security analyst investigating suspicious activity on a fictional comp
 ## Your Objective
 
 Use Wireshark to identify the compromised workstation and explain which packets led you to that conclusion. Follow the clues across FTP, DNS, and HTTP traffic to recover a transferred ZIP archive, piece together its password, and find the flag inside.
+
+## Start the Challenge
+
+1. [Read the challenge briefing](./CHALLENGE.MD)
+2. [Open the packet capture](./evidence/incident.pcap)
