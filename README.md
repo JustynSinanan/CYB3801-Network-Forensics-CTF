@@ -12,5 +12,5 @@ Use Wireshark to identify the compromised workstation and explain which packets 
 
 ## Start the Challenge
 
-1. [Read the challenge briefing](./CHALLENGE.MD)
+1. [Read the challenge briefing](./CHALLENGE.md)
 2. [Open the packet capture](./evidence/incident.pcap)
